@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+body {
+  font-family: ‘Raleway’, Arial, sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  font-weight: 700;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+}
