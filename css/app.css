@@ -4,6 +4,7 @@
 body {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
+  line-height: 1.88;
 }
 
 nav {
@@ -13,8 +14,10 @@ nav {
 .btn {
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 700;
+  font-size: .75em;
   text-transform: uppercase;
   border-style: none;
+  padding: 12px 30px;
 }
 
 .btn-default {
@@ -26,49 +29,91 @@ nav {
   background-color: #d78f61;
 }
 
+.btn-info:hover {
+  color: #000;
+  background-color: #e6e6e6;
+}
+
 .header-bg-cover {
   background: url(../img/header.jpg);
   background-size: cover;
 }
 
-footer {
-  background-color: #000;
-  color: #fff;
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-footer .fa {
-  color: #828282;
-}
 
 /*modifications to bootstrap for mobile*/
 
 /*navbar and header*/
 
+
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+  margin-bottom: 0;
 }
 
 .navbar-nav {
-  margin: 25px 10px 0px 10px
+  margin: 30px 0px 0px 0px;
 }
 
 .navbar-btn {
   float: left;
-  margin: 1%;
-  width: 48%;
+  margin: .5%;
+  width: 49%;
   border-style: none;
   background-color: rgba(255,255,255,.25);
-  color: #000;
+  color: rgba(0,0,0,.5);
 }
 
 .btn-default.active {
   background-color: #33c3f0;
   color: #fff;
+  box-shadow: none;
 }
 
 /*others*/
 
-/*article {
-  margin-bottom: 10px;
-}*/
+p {
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+header {
+  padding-bottom: 10px;
+}
+
+h1, h2 {
+  margin-top: 10px;
+}
+
+article {
+  margin: 20px 0 30px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #000;
+  color: #828282;
+  font-weight: 700;
+  padding: 30px 0 30px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-social-icons {
+  margin-bottom: 20px;
+}
+
+footer i {
+  vertical-align: middle;
+}
