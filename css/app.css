@@ -67,6 +67,29 @@ article {
   background-color: #e6e6e6;
 }
 
+.btn-info:focus {
+  color: #000;
+  background-color: #e6e6e6;
+}
+
+.btn-info:active {
+  background-color: #cd7238;
+}
+
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+
 /*Navbar*/
 
 .navbar-default {
@@ -119,6 +142,27 @@ footer i {
 
 .footer-social-icons {
   margin-bottom: 20px;
+}
+
+/*Modals*/
+
+.modal-header {
+  padding: 25px 30px 0;
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 15px 30px 25px;
+}
+
+.modal-footer {
+  padding: 0 30px 40px;
+  text-align: left;
+  border-top: none;
+}
+
+.modal p {
+  margin: 0;
 }
 
 /*Mobile Navbar: use 2x2 buttons instead of row*/
